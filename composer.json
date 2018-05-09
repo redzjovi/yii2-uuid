@@ -1,0 +1,20 @@
+{
+    "name": "redzjovi/yii2-uuid",
+    "description": "Yii 2 UUID Extension with ramsey/uuid.",
+    "type": "library",
+    "require": {
+        "ramsey/uuid": "3.7.3"
+    },
+    "authors": [
+        {
+            "name": "Jovi",
+            "email": "redzjovi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "redzjovi\\yii2\\uuid\\behaviors\\": "src/"
+        }
+    }
+}
